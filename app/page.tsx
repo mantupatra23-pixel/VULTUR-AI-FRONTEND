@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 export default function VulturDashboard() {
   const [leads, setLeads] = useState([]);
-  const BACKEND_URL = "https://vultur-ai-backend.onrender.com"; // Aapna sahi Render URL yahan dalein
+  const BACKEND_URL = "https://vultur-ai.onrender.com"; // Aapna sahi Render URL yahan dalein
 
   useEffect(() => {
     fetch(`${BACKEND_URL}/leads`)
